@@ -8,7 +8,9 @@
   width: 35%;
 }
 
-
+h1, h2{
+  font-family: Hellenictypewriter, sans-serif;
+}
 p {
    font-family: Chromatica, sans-serif;
    line-height:32px;
