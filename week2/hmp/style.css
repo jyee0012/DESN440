@@ -7,7 +7,14 @@
   margin-left:4ems;
   width: 35%;
 }
-
+@font-face{
+    font-family: chromatica;
+    src: url(fonts/ChromaticaTrial-Regular.otf);
+}
+@font-face{
+    font-family: hellenic;
+    src: url(fonts/HellenicTypewriterTrial-Regular.otf);
+}
 h1, h2{
   font-family: Hellenictypewriter, sans-serif;
 }
