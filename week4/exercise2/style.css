@@ -1,0 +1,30 @@
+input{
+/*   visibility: hidden; */
+  display: none;
+}
+label{
+  padding: 1em 1.5em;
+  margin-top: .9em;
+  border-radius: .5em;
+  display: block;
+  font-size: 1.5em;
+  border: 5px solid #115;
+  text-align:center;
+  text-weight:bold;
+  filter: grayscale (90%);
+}
+label:hover{
+  cursor: url('https://assets-global.website-files.com/5f4e8114a9640d4aa2c637c4/5f75229803e33c67887b0212_blue%20squiggle%20-%20export.svg'), pointer;
+  border-color: blue;
+  background-color: #00f2;
+  filter: grayscale(50%);
+  transition-duration: 1s;
+  transform: scale(1.02);
+}
+input:checked + label{
+  border-color:blue;
+  box-shadow: 10px 10px  0px blue;
+  color: blue;
+  transform: translate(-10px, -10px) scale(1.02);
+  filter: none;
+}
