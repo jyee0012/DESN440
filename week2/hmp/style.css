@@ -8,15 +8,15 @@
   width: 35%;
 }
 @font-face{
-    font-family: chromatica;
+    font-family: Chromatica;
     src: url(fonts/ChromaticaTrial-Regular.otf);
 }
 @font-face{
-    font-family: hellenic;
+    font-family: Hellenic;
     src: url(fonts/HellenicTypewriterTrial-Regular.otf);
 }
 h1, h2, h3, h4{
-  font-family: Hellenictypewriter, sans-serif;
+  font-family: Hellenic, sans-serif;
 }
 p {
    font-family: Chromatica, sans-serif;
