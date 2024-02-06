@@ -1,0 +1,30 @@
+.title {
+    color: green;
+}
+@font-face{
+    font-family: chromatica;
+    src: url(fonts/ChromaticaTrial-Regular.otf);
+}
+@font-face{
+    font-family: hellenic;
+    src: url(fonts/HellenicTypewriterTrial-Regular.otf);
+}
+*{
+    font-family: chromatica;
+}
+@media (min-width: 1200px){
+    .title{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 900px){
+    .title{
+        font-size: 3rem;
+    }
+}
+@media (min-width: 600px){
+    .title{
+        font-size: 2.5rem;
+    }
+}
