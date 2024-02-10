@@ -14,28 +14,192 @@
         include mobile responsive
         include transformations
         tooltips
-       -->
-        <h1 class="title">Arcadia Short Film Festival</h1>
-        <div class="container">Project Plan
-          <div class="row">
-            <div class="col content-header">
-              <h2>Project Overview</h2>
-              <h3>Brief</h3>
-            </div>
-            <div class="col ">
-            <p>Arcadia Short Film Festival</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col order-md-2 content-header">
+
+### P1 technical complexity requirements
+
+- Responsive
+    - [ ]  mobile (xs, sm)
+    - [ ]  tablet (md, lg)
+    - [ ]  desktop (md, lg, xl, xxl)
+- Apply **2 unique** “content visibility” Bootstrap components
+    - [ ]  content visibility option 1
+    - [ ]  content visibility option 2
+    - Bootstrap’s content visibility components:
+        review [bootstrap components](https://getbootstrap.com/docs/5.3/components/accordion/) available:
+        - collapse*
+        - accordion*
+        - tabs*
+        - carousel
+        - offcanvas
+        - popovers
+        - scrollspy
+        - toasts ([codepen example](https://codepen.io/mikefats/pen/vYzOLZr))
+        - tooltips
+- Also these CSS properties, HTML, and Bootstrap features
+    - [X]  Z- index
+    - [X]  responsive margins & padding classes (pt-md-3, mx-lg-4, etc.)
+    - [ ]  Position
+    - [X]  CSS Transforms
+    - [X]  Box shadow
+    - [ ]  CSS Filter
+    - [X]  Transition
+    - [X]  Google font(s)
+    - [X]  States: normal, hover, selected
+
+              <h2>Objectives and Goals</h2>
+              <h2>Target Audience</h2>
+              <h2>Audits of Existing Websites</h2>
               <h2>Scope of Work</h2>
               <h3>Brief</h3>
-            </div>
+       -->
+        <button onclick="topFunction()" id="myBtn" class="position-fixed" title="Go to top">▲</button>
+        <h1 class="title pb-md-2 pb-lg-3">Arcadia Short Film Festival</h1>
+        <div class="container">
+          <h1>Project Overview</h1>
+          <div class="row mt-md-3 mt-lg-5">
             <div class="col">
-            <p>Arcadia Short Film Festival</p>
+              <h2>Brief Project Description</h2>
+            </div>
+            <div class="col pt-md-1 content">
+              <p>For this project, we will be creating a website for the Arcadian Film Festival. This website will celebrate the fusion of classical civilizations and contemporary cinema. Our website will serve as a hub for filmmakers, enthusiasts, and industry professionals to engage, share and explore multiple genres through the lens of film.</p>
+              <p>The client’s primary goal is to have a website that filmmakers can use to submit/promote their films while also allowing film enthusiasts and industry professionals a way to experience these films. </p>
+              <p>The scope of this project consists of the creation of a user-friendly website interface that is responsive across all devices, the creation of an extensive archive section featuring past festival events, film screenings, discussions and award winners and finally interactive features for film submission (along with information for film submission), award voting and community engagement to boost user participation and provide a unique and lasting user experience.</p>
             </div>
           </div>
-          <div class="accordion" id="accordionExample">
+          <div class="row mt-md-3 mt-lg-5">
+            <div class="col order-md-2">
+              <h2>Objectives and Goals</h2>
+            </div>
+            <div class="col pt-md-1 content">
+              <ul>
+                <li>Sharing experiences and ideas with filmmakers, film enthusiasts and industry professionals.</li>
+                <li>Providing filmmakers with the ability to submit and promote their films in order to gather attention locally but also on a global scale.</li>
+                <li>Highlighting the films submitted by displaying some crucial information such as the film description, duration, actors, producers, directors and genre.</li>
+                <li>The ability to let users know when future film events are coming and where to find them.</li>
+                <li>The ability to purchase tickets for film showings that require them.</li>
+                <li>Access to an archive of past film events and films.</li>
+                <li>Information for Film Submission</li>
+                <li>The ability to vote films for awards</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-md-3 mt-lg-5">
+            <div class="col">
+              <h2>Target Audience</h2>
+            </div>
+            <div class="col pt-md-1 content">
+              <h3>Target audience</h3>
+              <ul>
+                <li>Film Enthusiasts</li>
+                <li>Filmmakers</li>
+                <li>Film Industry Professionals</li>
+              </ul>
+              <h3>User Statement</h3>
+              <p>As a passionate film enthusiast with an interest in Ancient Greek and Rome culture, I am looking forward to immersing myself in a vibrant community dedicated to celebrating the diverse art of film that Arcadia has to offer and with this not only enhance my passion for film but also get the chance to network with like-minded individuals consisting of filmmakers, film enthusiasts and industry professionals.</p>
+              <h3>User Needs</h3>
+              <ul>
+                <li>The ability to access a diverse selection of films with their key information such as film description, genre, actors, directors and film duration</li>
+                <li>A way to be updated with event information such as upcoming screenings, discussions and workshops, ensuring users don’t miss out on the events.</li>
+                <li>A seamless and convenient ticket purchasing system to allow users a way to secure their spots at film screenings and events.</li>
+                <li>The ability to engage within their community of film enthusiasts.</li>
+                <li>Film submission information which will consist of clear guidelines, deadlines and submission forms so filmmakers can submit their films on time.</li>
+                <li>Promotional opportunities so filmmakers can gain exposure for their work and attract attention from both local and global audiences.</li>
+                <li>Industry insights consist of knowledge of industry professionals that will be present at the event to give filmmakers more of an incentive to submit their works in hopes of being scouted and advancing their careers.</li>
+              </ul>
+            </div>
+          </div>
+          <h1 class="mt-md-5">Audit of Existing Websites</h1>
+          <div class="row mt-md-3 mt-lg-5">
+            <div class="col order-md-2 audit">
+              <h2>Toronto Film Festival <a class="link-unstyled" href="https://www.tiff.net/">►</a></h2>
+              <img class="mt-3" src="img/audit1-img1.png"/>
+              <img src="img/audit1-img2.png"/>
+            </div>
+            <div class="col pt-md-1 content">
+              <p>To start off the Toronto Film Festival has good SEO, running the website through SEO audits yields results of B. The website has excellent On-Page SEO allowing search engines to almost always make sure it’s the first website up when you type in keywords such as “film”, “film festival”, “Canada film festival”, “toronto film” and even “toronto festival”.</p>
+              <p>The links are all functional with next to no dead links, the only way to improve them is to make them more human and Search Engine readable. </p>
+              <p>However, a big issue is the total page file size. The page is very media heavy with videos playing in the background while also being filled with images which ends up meaning it runs a bit slower on dated machines and slower internet connections. Due to this when resizing the window the website takes a bit to resize the website content.</p>
+              <p>The only glaring issue is the lack of an obvious call to action for Film Submission, this may be due to the fact that the festival is over and they are preparing for their 2024 festival; however, some information for future submissions and an easy way to access it would be very useful. To get to submissions I had to google tiff submissions due to the fact I couldn’t find it on the homepage so this is definitely something that needs to be improved.</p>
+              <p>Overall, the website is great with a consistent theme and no inconsistencies with heading tags or typography. Everything has a good hierarchy and it is completely responsive so it works on all devices. </p>
+            </div>
+          </div>
+          <div class="row mt-md-3 mt-lg-5">
+            <div class="col audit">
+              <h2>Atlanta Film Festival <a class="link-unstyled" href="https://www.atlantafilmfestival.com/georgia">►</a></h2>
+              <img class="mt-3" src="img/audit2-img1.png"/>
+            </div>
+            <div class="col pt-md-1 content">
+              <p>We’ll be focusing on the films section of the website. The films section provides an interactive search filter that allows users to search for a title of a film, details about a film, or credits about a film. Users are able to click the buttons within the filter and the films will filter to its results.</p>
+              <p>Of course, this isn’t the best filter system they’ve created. The filters provided are a mix of genres, film makers, and the type of film it is (e.g. short film, animation, episodic, etc). It makes it difficult to glance at the filter and pick out which one sounds the most interesting to us. The colors also clash with each other and make everything more overwhelming. </p>
+              <p>The way the films are organized on that page is very pleasant. With a portrait image as the movie poster for each film, it makes it more engaging to the page and provides the more authentic feeling of movies and films. However, the movie text on top of the image creates a distraction that takes away attention from the movie poster.</p>
+            </div>
+          </div>
+          <div class="scope-work">
+            <h1 class="mt-md-5">Scope of Work</h1>
+            <h2 class="pt-md-3">List of Deliverables</h2>
+            <div class="row">
+              <div class="col">
+                <h3>Web pages</h3>
+                <ul>
+                  <li>Homepage</li>
+                  <li>Submission page</li>
+                  <li>All Films page</li>
+                  <li>Film Description page</li>
+                  <li>Previous Winners Showcase page</li>
+                  <li>About Us page</li>
+                </ul>
+              </div>
+              <div class="col">
+                <h3>Features</h3>
+                <ul>
+                  <li>Digital submission form</li>
+                  <li>Category selection functionality</li>
+                  <li>Winner announcement section</li>
+                  <li>Sponsor acknowledgement section</li>
+                  <li>Consideration for additional buttons to encourage engagement and support for the festival</li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="pt-md-3">Specifications of Design and Functionality</h2>
+            <div class="row">
+              <div class="col ">
+                <h3>Design</h3>
+                <ul>
+                  <li>Reflect festival’s creative spirit with web-specific branding with a logo</li>
+                  <li>Ensure accessibility by incorporating adjustable type size and contrast options</li>
+                </ul>
+              </div>
+              <div class="col pt-md-1 ">
+                <h3>Functionality</h3>
+                <ul>
+                  <li>User-friendly interface</li>
+                  <li>Streamlined digital submission process</li>
+                  <li>Responsive layout for optimal viewing on various devices (mobile, tablet, desktop)</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h2 class="pt-md-3">Content Requirements</h2>
+            <div class="row">
+              <div class="col ">
+                <h3>Text</h3>
+                <p>Engaging and informative content for all pages, including festival information, submission guidelines, and sponsor acknowledgement</p>
+              </div>
+              <div class="col pt-md-1 ">
+                <h3>Images</h3>
+                <p>High-quality images for website branding, festival posters, and previous winning films</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col ">
+                <h3>Videos</h3>
+                <p>Trailers or excerpts from previous winning films for showcase purposes</p>
+              </div>
+              <div class="col pt-md-1 ">
+              </div>
+            </div>
+          </div>
+          <div class="accordion mt-md-5 mt-lg-7" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -44,7 +208,36 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <h4>Overall project timeline from start to finish. (February 12 - April 12)</h4>
+                  <h4>Key milestones and deadlines for each phase</h4>
+                  
+                  <p class="list-unstyled"><strong>Research and Content Gathering</strong></p>
+                  <ul>
+                    <li>Project Planning</li>
+                    <li>Project Discovery</li>
+                    <li>Project 1 Bootstrap page with Project Plan - February 12th</li>
+                  </ul>
+                  <p class="list-unstyled"><strong>Design Phase</strong></p>
+                  <ul>
+                    <li>Term Project Wireframes - Monday, February 26th</li>
+                  </ul>
+                  <p class="list-unstyled"><strong>Development</strong></p>
+                  <ul>
+                    <li>Term Project Static Prototype/UI Design - March 11th</li>
+                    <li>Term Project - CMS & Template Configuration</li>
+                  </ul>
+                  <p class="list-unstyled"><strong>Testing and Quality Assurance</strong></p>
+                  <ul>
+                    <li>Can be done during Easter Monday - April 1st</li>
+                  </ul>
+                  <p class="list-unstyled"><strong>Client Approval and Revisions</strong></p>
+                  <ul>
+                    <li>Consultations and Feedback - April 8th</li>
+                  </ul>
+                  <p class="list-unstyled"><strong>Deployment</strong></p>
+                  <ul>
+                    <li>Term Project Due/Final Deployment - April 16th</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -56,51 +249,129 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <h4>Allocation of team members to specific tasks/roles</h4>
+                  <ul>
+                    <li><strong>Collin Adoma:</strong> Project Plan Contributor</li>
+                    <li><strong>Ashley Le:</strong> Project Plan Contributor</li>
+                    <li><strong>Maria Sison:</strong> Record Keeper, Project Plan Contributor</li>
+                    <li><strong>Marco Tse:</strong> Project Plan Contributor</li>
+                    <li><strong>James Yee:</strong> Communication Lead, Project Plan Contributor</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div>Design and Technical Requirement</div>
-          <div>User Experience and User Interface Design</div>
-          <div>Content Strategy</div>
-          <div>Testing and Quality Assurance</div>
+          <div class="mt-md-5 mt-lg-7 design">
+            <h2>Design and Technical Requirement</h2>
+            <h3>Design Guidelines</h3>
+            <img src="img/design1.jpg" alt="Design Guidelines">
+            <h3>Technical Specifications</h3>
+            <ul>
+              <li>Hosted on GitHub</li>
+              <li>Webflow</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+              <li>CodePen</li>
+              <li>Sublime Text</li>
+            </ul>
+            <h3>Responsiveness and Accessiblity</h3>
+            <p>Accessible for tablet & mobile users</p>
+            
+            <h2 class="mt-5">User Experience and User Interface Design</h2>
+            <p>Strategic & Creative direction</p>
+            <p class="pl-3">Main Navigation (Links with labels, express site's visual identity)</p>
+            <img src="img/design2.jpg" alt="UX/UI Design">
+          </div>
           <div class="row">
+            <h2 class="border-2 border-bottom border-dark">Content Strategy</h2>
+            <div class="col">
+              <h3>Content creation, sourcing, management</h3>
+              <p>
+                Page content will consist of a diverse selection of short films which are sourced through our received submissions from filmmakers and any collaborations with other film festivals.
+              </p><p>We will also have comprehensive listings for film screenings, discussions, workshops and other related events which we will update regularly to ensure accuracy and relevance.
+              </p><p>The creation of engaging content such as articles, interviews, reviews and behind-the-scene features will be sourced through collaboration with film critics, historians, and industry professionals willing to provide educated and insightful perspectives
+              </p><p>Content such as reviews, comments and discussions will also be user-generated to foster community engagement and participation.
+              </p><p>Finally we will also make sure to integrate social media platforms to share festival updates, highlight featured films and to engage with our audience across several social media platforms. This will also help maximize the reach and visibility.
+              </p>
+            </div>
+            <div class="col">
+              <h3>SEO strategy for content optimization</h3>
+              <p>
+                Research will be conducted to find relevant terms and phrases which can be used as keywords throughout the website for the most optimisation.
+              </p><p>Website content will be optimized by including target keywords not only within the keywords but also in the meta tags, headings and image alt attributes - this will help boost On-Page SEO. 
+              </p><p>There will be a focus on creating relevant content so ensuring that the content is well-written and engaging for our target audience.
+              </p><p>Making sure the website is fully responsive across all platforms by using responsive design. By making the website mobile-friendly we can improve user experience and search rankings.
+              </p><p>Finally, implementing local SEO by including location-specific keywords such as Arcadia, Greece and Rome. 
+              </p><p>Using Google Analytics to look at our website analytics and also using tools such as Google My Business for local listings and reviews.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h2>Testing and Quality Assurance</h2>
+            <p>For quality assurance testing we will use tools such as:</p>
+            <ul>
+              <li><a href="https://analytics.google.com/analytics/web/provision/?authuser=0#/provision">Google Analystics</a></li>
+              <li><a href="https://www.seoptimer.com/">SEO Optimiser</a></li>              
+              <li><a href="https://wave.webaim.org/">WAVE - Web Accessibility Evalution Tool</a></li>
+            </ul>
+            <p class="mb-7">This is to ensure that the website is up to date with Accessibility requirements and SEO optimization.</p>
+            <h4>Functional Testing</h4>
+            <p>For testing we can conduct tests of all the website's functionalities to ensure that navigation, film listings, event listings, ticket purchasing and submission forms are all up to date and there are no broken links present.</p>
+            <p>We will also test responsiveness across various devices and browsers to ensure compatibility and consistency.</p>
+            <h4>Usability Testing</h4>
+            <p>Gather feedback from a group of users through usability testing sessions or surveys. Using the feedback we can then identify pain points, usability issues and areas for improvement.</p>
+            <h4>Content Review</h4>
+            <p>Reviewing all the website content to make sure it’s relevant, accurate and consistent. Ensuring the content is well-written, free of grammatical errors and is aligned with the Arcadian theme and our website objectives.</p>
+            <h4>Performance Testings</h4>
+            <p>Measure website loading times and other performance metrics using <a href="https://pagespeed.web.dev/">Google PageSpeed Insights</a>.</p>
+            <h4>Security Testing</h4>
+            <p>Conducting security audits and vulnerability scans to identify potential security threats.
+              Implementing things such as SSL encryption and other security methods to protect against SQL injections and cross-site scripting.
+              </p>
+            <p>Ensuring regular software, plugin and framework updates to patch security vulnerabilities that may arise.</p>
+            <h4>Accessibility Testing</h4>
+            <p>Finally using WAVE we can make sure that the website has excellent accessibility.</p>
+          </div>
+          <div class="row mt-3">
             <div class="col">
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Launch Plan ▶</a>
             </div>          
             <div class="col collapse multi-collapse" id="multiCollapseExample1" data-bs-parent="#contentArea">
             
               <div class="card card-body">
-                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <p>After the successful creation of the Short Film Festival website, our commitment extends beyond its launch to ensure ongoing support and maintenance. With a focus on reliability and efficiency, our team will utilize GitHub domain hosting, aligning with our preferred platform for website deployment. This choice ensures seamless integration and facilitates swift updates whenever necessary. Ideally the website will update biannually for before and after the festival.</p>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mt-3">
             <div class="col">
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Risk Management ▶</a>
             </div>          
             <div class="col collapse multi-collapse" id="multiCollapseExample2" data-bs-parent="#contentArea">
             
               <div class="card card-body">
-                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <p>Hosting on github will restrict in-depth levels of customization. Other than further customization, github hosting seems safe, low-cost, maintainable, and relatively easy-to-use.
+                  In the event of github going down, we run the risk of our own website going down as well. If this becomes a problem we can migrate to a different hosting service.</p>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mt-3">
             <div class="col">
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Post-Launch Strategy ▶</a>
             </div>          
             <div class="col collapse multi-collapse" id="multiCollapseExample3" data-bs-parent="#contentArea">
             
               <div class="card card-body">
-                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <p>Maintenance and updates will happen at least biannual based on the festival and seasons. Metrics and performance evaluation will be obtained using Google Analytics to collect data and review. Digital marketing will be managed using social media communications.</p>
               </div>
             </div>
           </div>
-          <div>Appendix</div>
+          <div class="mt-7">
+            <h2>Appendix</h2>
+            <h4>Interview Questions</h4>
+            <h6>Objective and Goals</h6>
+          </div>
         </div>
-        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     </body>
